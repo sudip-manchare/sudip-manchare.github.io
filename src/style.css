@@ -15,7 +15,7 @@ section{
   --Patua: "Patua One", cursive;
   --Lobster: "lobster", cursive;
   --light-black: #2e2c2caf;
-  --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+  --bggradient: rgb(166, 245, 166);
   --light-gray: rgba(255, 255, 255, 0.877);
 }
 
@@ -59,9 +59,6 @@ header .nav-item {
   
 header .navbar-brand {
     padding-left: 8rem;
-}
-header .nav-link {
-    color:white;
 }
   
 header .nav-link:hover {
@@ -128,13 +125,13 @@ header .container .col-md-7 p {
 }
   
 .section-1 .row .col-md-6 .panel {
-    position: absolute;
+    
     top: 7vmin;
     left: -18vmin;
     background: white;
     border-radius: 3px;
     text-align: left;
-    padding: 13vmin 5vmin 20vmin 10vmin;
+    padding: 13vmin 5vmin 10vmin 10vmin;
     box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
     font-family: var(--Rubik);
     z-index: 1;
@@ -199,7 +196,7 @@ header .container .col-md-7 p {
     padding-top: 3.5vmin;
     margin: 1rem;
     border-radius: 0.5em;
-    box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
+    box-shadow: 1px 2px 50px 0px #41e6e0d2;
 }
   
 .numbers {
@@ -208,7 +205,7 @@ header .container .col-md-7 p {
   
 .numbers .rect h1 {
     font-size: 5rem;
-    color: tomato;
+    color: rgb(57, 91, 32);
 }
 
 .numbers .rect > p {
@@ -330,21 +327,17 @@ header .container .col-md-7 p {
 }
   
 footer {
-    background: rgba(0, 0, 0, 0.815);
+    background: rgba(128, 193, 226, 0.782);
     overflow-x: hidden;
     padding: 14vmin 18vmin;
 }
   
 footer p > span {
-    color: #ff512f;
+    color: #237a46bb;
 }
   
 footer input {
     border: none !important;
-}
-  
-footer input::placeholder {
-    color: white !important;
 }
   
 footer .input-group .input-group-text {

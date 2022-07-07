@@ -1,6 +1,6 @@
 @media only screen and (max-width: 768px) {
     header .navbar-brand {
-      padding-left: 1rem;
+      padding-left: 0rem;
     }
     .section-1 .row .col-md-6 .panel {
       position: initial;
