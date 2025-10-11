@@ -673,12 +673,21 @@
             }
 
             .hero-content {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
                 grid-template-columns: 1fr;
                 text-align: center;
             }
 
             .hero-text h1 {
                 font-size: 2.5rem;
+            }
+
+            .profile-card {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
             }
 
             .about-content {
