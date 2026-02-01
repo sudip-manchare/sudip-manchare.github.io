@@ -40,13 +40,21 @@ document.querySelectorAll('.fade-in').forEach(el => {
     observer.observe(el);
 });
 
-// Mobile menu toggle (for future mobile menu implementation)
+// Mobile menu toggle
 const mobileMenu = document.querySelector('.mobile-menu');
 const navLinks = document.querySelector('.nav-links');
 
 mobileMenu.addEventListener('click', () => {
-    // This would toggle mobile menu - implement as needed
-    console.log('Mobile menu clicked');
+    navLinks.classList.toggle('active');
+    mobileMenu.classList.toggle('active');
+});
+
+// Close mobile menu when clicking on a link
+document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+        mobileMenu.classList.remove('active');
+    });
 });
 
 // Add scroll progress indicator
